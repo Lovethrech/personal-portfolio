@@ -119,18 +119,20 @@ main{
     }
     #projects-btn-ctn{
         background: transparent;
-        border:0.11vh solid rgb(243, 49, 49);
+        border:0;
     }
     .projects-btn{
         width: 100%;
-        color: rgb(243, 49, 49);
+        background-color: #000000;
+        color: rgb(255, 255, 255);
         background: inherit;
         padding: 10px 20px;
         text-transform: capitalize;
         border: 0;
     }
     .projects-btn:hover{
-        
+        cursor: pointer;
+        background:transparent;
     }
     /* END  */
 }
