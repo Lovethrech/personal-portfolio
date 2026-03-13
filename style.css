@@ -24,7 +24,7 @@ main{
 }
 @media screen and (max-width:950px) {
     main{        
-        background-color: rgb(247, 175, 175);
+        background-color: rgba(247, 175, 175, 0.397);
     }
     #main-desktop-view{
         display: none;
@@ -43,17 +43,21 @@ main{
     }
     #hero-main-ctn{
         background-color: #ffffff;
-        color: #000000;
-        padding: 2vh;
+        color: rgb(243, 49, 49);
+        padding: 3vh 6vh;
         border-radius: 80px;
         text-align: center;
     }
     .author-name{
         text-transform: uppercase;
+        letter-spacing: 1vh;
     }
     .job-title{
         text-transform: uppercase;
-        font-size: 8vw;
+        font-size: 10vw;
+    }
+    #hero-bio{
+        line-height: 3vh;
     }
     /* END  */
 }
