@@ -118,7 +118,7 @@ main{
         border: 0.5vh groove #7e4c4c;
     }
     #projects-btn-ctn{
-        background: transparent;
+        background-color: #000000;
         border:0;
     }
     .projects-btn{
@@ -130,10 +130,16 @@ main{
         text-transform: capitalize;
         border: 0.11vh solid #7e4c4c;
     }
-    .projects-btn:hover{
+    #projects-btn-ctn:hover{
         cursor: pointer;
-        background:transparent;
+        transform: scale(0.98);
+        transition: all .2s;
     }
+    /* END  */
+
+    /* CONTACTS SECTION  */
+    /* START  */
+
     /* END  */
 }
 
