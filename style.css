@@ -176,10 +176,18 @@ main{
     }
     #contact-form-submission-btn{
         width: 100%;
+        font-size:20px;
         text-transform: capitalize;
         background-color: #000000;
         color: #ffffff;
         padding: 10px 30px;
+        letter-spacing: 1vh;
+    }
+    #contact-form-submission-btn:hover{
+        cursor:pointer;
+        background-color:#ffffff;
+        color:#000000;
+        transition: all .4s;
     }
     /* END  */
 }
