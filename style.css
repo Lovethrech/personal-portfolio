@@ -81,6 +81,7 @@ main{
     #about-main-ctn-title{
         color: rgb(243, 49, 49);
         text-transform: uppercase;
+        font-size: 40px;
     }
     #about-main-ctn-desc{
         text-align: justify;
@@ -93,6 +94,12 @@ main{
     #projects{
         background-color: rgba(247, 175, 175, 0.397);
         min-height: 100vh;
+    }
+    #project-main-ctn-title{
+        color: rgb(243, 49, 49);
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 38px;
     }
     /* END  */
 }
