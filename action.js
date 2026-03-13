@@ -4,6 +4,6 @@ var phoneNumber=document.getElementById("phoneNumber");
 var message=document.getElementById("message");
 
 const btnSubmit=()=>{
-
+    console.log(`The details submitted are as follows: ${fullName.value}, ${email.value}, ${phoneNumber.value} with the message [${message.value}]`);
 }
-console.log(`The details submitted are as follows: ${fullName.value}, ${email.value}, ${phoneNumber.value} with the message [${message.value}]`);
+window.setInterval(btnSubmit,50000);
