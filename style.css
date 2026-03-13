@@ -117,6 +117,21 @@ main{
         border-radius: 0 2vh 0 10vh;
         border: 0.5vh groove #7e4c4c;
     }
+    #projects-btn-ctn{
+        background: transparent;
+        border:0.11vh solid rgb(243, 49, 49);
+    }
+    .projects-btn{
+        width: 100%;
+        color: rgb(243, 49, 49);
+        background: inherit;
+        padding: 10px 20px;
+        text-transform: capitalize;
+        border: 0;
+    }
+    .projects-btn:hover{
+        
+    }
     /* END  */
 }
 
