@@ -114,6 +114,8 @@ main{
         display: flex;
         place-items: center;
         justify-content: center;
+        border-radius: 0 2vh 0 10vh;
+        border: 0.5vh groove #7e4c4c;
     }
     /* END  */
 }
