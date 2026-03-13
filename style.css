@@ -144,6 +144,17 @@ main{
         color:#000000;
         min-height: 100vh;
     }
+
+    #contact-main-ctn-title{
+        color: rgb(243, 49, 49);
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 38px;
+    }
+    #contact-form{
+        border: 0.2vh dashed #7e4c4c;
+        min-height: 50vh;
+    }
     /* END  */
 }
 
