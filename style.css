@@ -32,5 +32,17 @@ main{
     #main-mobile-view{
         display: flex;
     }
+    /* HERO STYLES  */
+    /* START  */
+    #hero{
+        padding: 3vh 6vh;
+        min-height: 90vh;
+        background-color: orange;
+        display:flex;
+        place-items: center;
+        justify-content: center;
+    }
+    
+    /* END  */
 }
 
