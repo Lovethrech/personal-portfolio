@@ -44,20 +44,23 @@ main{
     #hero-main-ctn{
         background-color: #ffffff;
         color: rgb(243, 49, 49);
-        padding: 3vh 6vh;
+        padding: 3vh 20px;
         border-radius: 80px;
+        border: 0.6vh dotted rgba(247, 175, 175, 0.397);
         text-align: center;
     }
     .author-name{
         text-transform: uppercase;
         letter-spacing: 1vh;
+        font-size:12px;
     }
     .job-title{
         text-transform: uppercase;
-        font-size: 10vw;
+        font-size: 42px;
     }
     #hero-bio{
         line-height: 3vh;
+        font-size: 16px;
     }
     /* END  */
 }
