@@ -152,8 +152,9 @@ main{
         font-size: 38px;
     }
     #contact-form{
-        border: 0.2vh dashed #7e4c4c;
         min-height: 50vh;
+        padding: 30px 0;
+        font-size: 16px;
     }
     /* END  */
 }
