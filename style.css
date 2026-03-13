@@ -4,15 +4,16 @@
     box-sizing: content-box;
     list-style-type: none;
     outline: none;
+}main, #main-desktop-view{
+    width: 100%;
 }
 main{
-    width: 100%;
+    
     min-height: 100vh;
     background-color:#000000;
     color: #ffffff;
 }
 #main-desktop-view{
-    width: 100%;
     height:100vh;
     display: flex;
     place-items: center;
