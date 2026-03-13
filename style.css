@@ -163,6 +163,10 @@ main{
         text-transform: uppercase;
         letter-spacing: 2px;
     }
+    .contact-form-input-and-label-ctn input, .contact-form-input-and-label-ctn textarea{
+        width: 100%;
+    }
+
     .contact-form-input-and-label-ctn input{
         font-size: 20px;
         margin-top: 2vh;
@@ -170,6 +174,10 @@ main{
         width: 100%;
         border: 0;
         border-bottom: 1px solid #7e4c4c;
+    }
+    .contact-form-input-and-label-ctn textarea{
+        
+        min-height: 20vh;
     }
     /* END  */
 }
