@@ -128,7 +128,7 @@ main{
         background: inherit;
         padding: 10px 20px;
         text-transform: capitalize;
-        border: 0;
+        border: 0.11vh solid #7e4c4c;
     }
     .projects-btn:hover{
         cursor: pointer;
