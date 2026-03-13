@@ -31,6 +31,7 @@ main{
     }
     #main-mobile-view{
         display: flex;
+        flex-direction: column;
     }
     /* HERO STYLES  */
     /* START  */
