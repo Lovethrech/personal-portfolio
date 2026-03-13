@@ -37,12 +37,15 @@ main{
     #hero{
         padding: 3vh 6vh;
         min-height: 90vh;
-        background-color: orange;
         display:flex;
         place-items: center;
         justify-content: center;
     }
-    
+    #hero-main-ctn{
+        background-color: #ffffff;
+        color: #000000;
+        padding: 2vh;
+    }
     /* END  */
 }
 
