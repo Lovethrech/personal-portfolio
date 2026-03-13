@@ -24,7 +24,7 @@ main{
 }
 @media screen and (max-width:950px) {
     main{        
-        background-color: rgba(247, 175, 175, 0.397);
+        background-color: rgb(255, 255, 255);
     }
     #main-desktop-view{
         display: none;
@@ -33,11 +33,14 @@ main{
         display: flex;
         flex-direction: column;
     }
+    #hero, #about, #projects, #contact{
+        padding: 6vh 6vh;
+    }
     /* HERO STYLES  */
     /* START  */
     #hero{
-        padding: 3vh 6vh;
-        min-height: 90vh;
+        background-color: rgba(247, 175, 175, 0.397);
+        min-height: 98vh;
         display:flex;
         place-items: center;
         justify-content: center;
@@ -70,7 +73,24 @@ main{
     #about{
         min-height: 100vh;
         background-color: #ffffff;
+        color:#000000;
+    }
+    #about-main-ctn-title{
+        color: rgb(243, 49, 49);
+        text-transform: uppercase;
+    }
+    #about-main-ctn-desc{
+        text-align: justify;
+        line-height: 3vh;
     }
     /* END */
+
+    /* PROJECTS SECTION  */
+    /* START  */
+    #projects{
+        background-color: rgba(247, 175, 175, 0.397);
+        min-height: 100vh;
+    }
+    /* END  */
 }
 
