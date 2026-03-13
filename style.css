@@ -4,7 +4,7 @@
     box-sizing: border-box;
     list-style-type: none;
     outline: none;
-    background-color: red;
+    background-color: rgb(247, 175, 175);
 }
 main{
     width: 100%;
