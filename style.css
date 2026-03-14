@@ -10,7 +10,8 @@
 /* Define light mode defaults with variables  */
 :root{
     --white-bg-color: #ffffff;
-    --white-bg-title-text-color: ;
+    --white-bg-title-text-color: rgb(243, 49, 49);
+    
 }
 
 
