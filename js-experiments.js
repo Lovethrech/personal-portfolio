@@ -4,6 +4,11 @@ const testScope=()=>{
     let localVar="I'm only in this function";
     if(true){
         let blockVar="I'm only in this block";
-        
+        console.log(globalVar);
+        console.log(localVar);
+        console.log(blockVar);
     }
+    console.log(globalVar);
+    console.log(localVar);
 }
+testScope();
