@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
     }
     else{
         // Optional: Respect user's OS preference 
-        if(window.matchmedia && window.matchMedia('()')){
-
+        if(window.matchmedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
+            body.classList.add("dark");
         }
     }
 })
