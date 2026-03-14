@@ -49,8 +49,10 @@ console.log(counter2());
 
 
 // ASSIGNMENT 
-const createGreeting=(greeting)=>{
-    let greeting="Hello";
+const createGreeting=()=>{
+    let greeting="greeting";
+
+    return greeting;
 }
-const sayHello=createGreeting();
-console.log(sayHello());
+const myGreetings=createGreeting();
+console.log(myGreetings());
