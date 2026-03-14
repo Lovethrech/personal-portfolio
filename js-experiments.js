@@ -30,3 +30,6 @@ function sayHello(){
 
 
 // CLOSURES LESSON 
+function createCounter(){
+    
+}
