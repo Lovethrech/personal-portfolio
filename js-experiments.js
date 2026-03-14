@@ -1,3 +1,5 @@
+const { create } = require("domain");
+
 // SCOPE LESSON 
 let globalVar="I'm everywhere";
 
@@ -31,5 +33,11 @@ function sayHello(){
 
 // CLOSURES LESSON 
 function createCounter(){
-    
+    let count = 0;
+
+    return function(){
+        count++;
+        return count;
+    };
 }
+const counter1=createCounter();
