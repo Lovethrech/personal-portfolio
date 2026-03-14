@@ -46,3 +46,11 @@ console.log(counter1());
 
 const counter2=createCounter();
 console.log(counter2());
+
+
+// ASSIGNMENT 
+const createGreeting=(greeting)=>{
+    let greeting="Hello";
+}
+const sayHello=createGreeting();
+console.log(sayHello());
