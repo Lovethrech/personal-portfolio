@@ -5,6 +5,11 @@
     list-style-type: none;
     outline: none;
 }
+header{
+    background-color:#ffffff;
+    padding: 10px 40px;
+    border-radius: 0 0 100px 90px;
+}
 main{
     width: 100%;
     min-height: 100vh;
