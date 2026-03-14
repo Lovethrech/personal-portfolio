@@ -49,10 +49,10 @@ console.log(counter2());
 
 
 // ASSIGNMENT 
-const createGreeting=()=>{
-    let greeting="greeting";
-
-    return greeting;
+const createGreeting=(greeting)=>{
+    return function(name){
+        return{`${greeting}, ${name}!`};
+    }
 }
 const myGreetings=createGreeting();
 console.log(myGreetings());
