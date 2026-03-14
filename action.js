@@ -4,5 +4,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
     // Check saved preferences or system preference 
     const savedTheme=localStorage.getItem('theme');
-    console.log(savedTheme.value);
+    if (savedTheme==="dark"){
+        body.classList.add("dark");
+    }
+    else if (savedTheme==="light"){
+        body.classList.add("light")
+    }
 })
