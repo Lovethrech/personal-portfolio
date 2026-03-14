@@ -59,7 +59,7 @@ main{
 /* START  */
 #hero{
     background-color: var(--pink-bg-color);
-    min-height: 98vh;
+    min-height: 95vh;
     display:flex;
     place-items: center;
     justify-content: center;
