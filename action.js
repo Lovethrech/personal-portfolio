@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     }
     else{
         // Optional: Respect user's OS preference 
-        if(){
+        if(window.matchmedia && window.matchMedia('()')){
 
         }
     }
