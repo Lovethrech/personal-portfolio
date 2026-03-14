@@ -45,7 +45,9 @@ if(form){
         let isValid=true;
 
         // Name 
-        const name= document.getElementById('name');
-        if (name)
+        const name= document.getElementById('name').ariaValueMax.trim();
+        if (name===''){
+            document.getElementById('name-error').textContent= 'Name is required';
+        }
     })
 }
