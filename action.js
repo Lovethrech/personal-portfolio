@@ -20,7 +20,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
     // Toggle on click 
     toggleButton.addEventListener('click', ()=>{
         if(body.classList.contains("dark")){
-            body.classList.remove()
+            body.classList.remove("dark");
+            localStorage.setItem("theme", "light");
         }
     })
 })
