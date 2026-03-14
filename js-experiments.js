@@ -51,8 +51,8 @@ console.log(counter2());
 // ASSIGNMENT 
 const createGreeting=(greeting)=>{
     return function(name){
-        return{`${greeting}, ${name}!`};
+        return(`${greeting}, ${name}!`);
     }
 }
-const myGreetings=createGreeting();
-console.log(myGreetings());
+const myGreeting=createGreeting("Hello");
+console.log(myGreeting("Rachael"));
