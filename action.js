@@ -18,5 +18,5 @@ document.addEventListener('DOMContentLoaded', ()=>{
     }
 
     // Toggle on click 
-    
+    toggleButton.addEventListener
 })
