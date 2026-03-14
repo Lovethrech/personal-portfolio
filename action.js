@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
         body.classList.add("dark");
     }
     else if (savedTheme==="light"){
-        body.classList.add("light")
+        body.classList.remove("light")
     }
 })
