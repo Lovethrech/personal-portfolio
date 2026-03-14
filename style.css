@@ -107,11 +107,7 @@ main{
 }
 .projects-card{
     background-color: #000000;
-    
-    height: 300px;
-    
-    place-items: center;
-    justify-content: center;
+    height: 300px;    
     border-radius: 0 2vh 0 6vh;
     border: 0.5vh groove #7e4c4c;
 }
