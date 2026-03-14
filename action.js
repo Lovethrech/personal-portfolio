@@ -4,29 +4,29 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
     // Check saved preferences or system preference 
     const savedTheme=localStorage.getItem('theme');
-    if (savedTheme==="dark"){
-        body.classList.add("dark");
+    if (savedTheme ==='dark'){
+        body.classList.add('dark');
     }
-    else if (savedTheme==="light"){
-        body.classList.remove("light")
+    else if (savedTheme ==='light'){
+        body.classList.remove('light')
     }
     else{
         // Optional: Respect user's OS preference 
         if(window.matchmedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
-            body.classList.add("dark");
+            body.classList.add('dark');
         }
     }
 
     // Toggle on click 
     toggleButton.addEventListener('click', ()=>{
-        if(body.classList.contains("dark")){
-            body.classList.remove("dark");
-            localStorage.setItem("theme", "light");
+        if(body.classList.contains('dark')){
+            body.classList.remove('dark');
+            localStorage.setItem("theme", 'light');
             toggleButton.textContent("Toggle Dark Mode");
         }
         else{
-            body.classList.add("dark");
-            localStorage.setItem("theme", "dark");
+            body.classList.add('dark');
+            localStorage.setItem("theme", 'dark');
             toggleButton.textContent("Toggle White Mode");
         }
     })
