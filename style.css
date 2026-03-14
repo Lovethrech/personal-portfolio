@@ -21,6 +21,11 @@ body.dark{
     --card-bg: #e0e0e0;
     --border-color: #444;
 }
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.4s ease, color 0.4s ease; /* smooth change */
+}
 
 
 header{
