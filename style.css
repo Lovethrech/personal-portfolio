@@ -42,15 +42,15 @@ main{
 .author-name{
     text-transform: uppercase;
     letter-spacing: 1vh;
-    font-size:12px;
+    font-size:20px;
 }
 .job-title{
     text-transform: uppercase;
-    font-size: 42px;
+    font-size: 62px;
 }
 #hero-bio{
     line-height: 3vh;
-    font-size: 16px;
+    font-size: 22px;
 }
 /* END  */
 
@@ -67,11 +67,12 @@ main{
 #about-main-ctn-title{
     color: rgb(243, 49, 49);
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 60px;
 }
 #about-main-ctn-desc{
     text-align: justify;
-    line-height: 3vh;
+    line-height: 4vh;
+    font-size: 22px;
 }
 /* END */
 
@@ -80,12 +81,18 @@ main{
 #projects{
     background-color: rgba(247, 175, 175, 0.397);
     min-height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+#project-main-ctn{
+    width: 100%;
 }
 #project-main-ctn-title{
     color: rgb(243, 49, 49);
     text-transform: uppercase;
     text-align: center;
-    font-size: 38px;
+    font-size: 58px;
 }
 #projects-card-ctn{
     display: flex;
@@ -96,11 +103,11 @@ main{
 .projects-card{
     background-color: #000000;
     width:46%;
-    height: 20vh;
+    height: 300px;
     display: flex;
     place-items: center;
     justify-content: center;
-    border-radius: 0 2vh 0 10vh;
+    border-radius: 0 2vh 0 6vh;
     border: 0.5vh groove #7e4c4c;
 }
 #projects-btn-ctn{
@@ -111,6 +118,7 @@ main{
     width: 100%;
     background-color: #000000;
     color: rgb(255, 255, 255);
+    font-size: 22px;
     background: inherit;
     padding: 10px 20px;
     text-transform: capitalize;
@@ -135,7 +143,7 @@ main{
     color: rgb(243, 49, 49);
     text-transform: uppercase;
     text-align: center;
-    font-size: 38px;
+    font-size: 58px;
 }
 #contact-form{
     min-height: 50vh;
