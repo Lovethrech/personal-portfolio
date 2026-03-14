@@ -101,6 +101,8 @@ main{
     gap:2vh;
 }
 .projects-card-ctn-main-ctn{
+    background-color: #ffffff;
+    padding: 10px 30px;
     width:46%;
     display: flex;
     flex-direction: column;
@@ -117,7 +119,8 @@ main{
     text-transform: uppercase;
 }
 .projects-card-desc{
-
+    color: #000000;
+    font-size: 20px;
 }
 #projects-btn-ctn{
     background-color: #000000;
