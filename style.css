@@ -7,6 +7,14 @@
     list-style-type: none;
     outline: none;
 }
+/* Define light mode defaults with variables  */
+:root{
+    --white-bg-color: #ffffff;
+    --white-bg-title-text-color: ;
+}
+
+
+
 header{
     background-color:rgba(247, 175, 175, 0.397);
     padding: 10px 40px;
