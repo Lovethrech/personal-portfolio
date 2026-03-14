@@ -45,9 +45,16 @@ if(form){
         let isValid=true;
 
         // Name 
-        const name= document.getElementById('name').ariaValueMax.trim();
+        const name= document.getElementById('name').value.trim();
         if (name===''){
             document.getElementById('name-error').textContent= 'Name is required';
+            isValid=false;
+        }
+
+        // Email 
+        const email= document.getElementById('email').value.trim();
+        if(email === ''){
+            document.getElementById('email.error').textContent="Email is required";
         }
     })
 }
