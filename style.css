@@ -10,6 +10,7 @@
 /* Define light mode defaults with variables  */
 :root{
     --bg-color: #ffffff;
+    --pink-bg-color:rgba(247, 175, 175, 0.397);
     --text-color: #000000;
     --card-bg: #f9f9f9;
     --border-color: #ddd;
@@ -17,19 +18,18 @@
 
 body.dark{
     --bg-color: #121212;
-    --text-color: #000000;
+    --pink-bg-color: rgb(247, 175, 175);
+    --text-color: #ffffff;
     --card-bg: #e0e0e0;
     --border-color: #444;
 }
 body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
     transition: background-color 0.4s ease, color 0.4s ease; /* smooth change */
 }
 
 
 header{
-    background-color:rgba(247, 175, 175, 0.397);
+    background-color: var(--pink-bg-color);
     padding: 10px 40px;
     border-radius: 0 0 0 90px;
     display: flex;
@@ -58,7 +58,7 @@ main{
 /* HERO STYLES  */
 /* START  */
 #hero{
-    background-color: rgba(247, 175, 175, 0.397);
+    background-color: var(--pink-bg-color);
     min-height: 98vh;
     display:flex;
     place-items: center;
@@ -112,7 +112,7 @@ main{
 /* PROJECTS SECTION  */
 /* START  */
 #projects{
-    background-color: rgba(247, 175, 175, 0.397);
+    background-color: var(--pink-bg-color);
     min-height: 100vh;
     display: flex;
     place-items: center;
