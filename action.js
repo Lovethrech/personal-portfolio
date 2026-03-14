@@ -69,5 +69,11 @@ if(form){
             document.getElementById('message-error').textContent = "Message is required";
             isValid=false
         }
+
+        if (isValid){
+            successMsg.style.display="block";
+            form.reset();
+            
+        }
     })
 }
