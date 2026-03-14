@@ -9,6 +9,18 @@ header{
     background-color:rgba(247, 175, 175, 0.397);
     padding: 10px 40px;
     border-radius: 0 0 0 90px;
+    display: flex;
+    justify-content: end;
+}
+header button#theme-toogle{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 16px;
+}
+header button#theme-toogle:hover{
+    cursor: pointer;
+    transform: scale(0.98);
+    transition: all .4s;
 }
 main{
     width: 100%;
