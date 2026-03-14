@@ -55,11 +55,12 @@ if(form){
         const email= document.getElementById('email').value.trim();
         const emailRegex= /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if(email === ''){
-            document.getElementById('email.error').textContent="Email is required";
+            document.getElementById('email-error').textContent="Email is required";
             isValid=false;
         }
         else if(!emailRegex.test(email)){
-            
+            document.getElementById('email-error').textContent="Enter a valid email address";
+            isValid=false;
         }
     })
 }
