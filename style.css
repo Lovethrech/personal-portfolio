@@ -11,7 +11,7 @@
 :root{
     --white-bg-color: #ffffff;
     --white-bg-title-text-color: rgb(243, 49, 49);
-    
+
 }
 
 
@@ -129,7 +129,7 @@ main{
     flex-direction: column;
 }
 .projects-card{
-    background-color: #000000;
+    background-color: rgba(247, 175, 175, 0.397);
     height: 300px;    
     border-radius: 0 2vh 0 6vh;
     border: 0.5vh groove #7e4c4c;
