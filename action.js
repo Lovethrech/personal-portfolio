@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         if(body.classList.contains("dark")){
             body.classList.remove("dark");
             localStorage.setItem("theme", "light");
+            toggleButton.textContent("Toggle Dark Mode");
         }
     })
 })
