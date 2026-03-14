@@ -36,7 +36,7 @@ const form=document.getElementById('contact-form');
 const successMsg=document.getElementById('form-success');
 
 if(form){
-    form.addEventListener('sunmit', ()=>{
-        
+    form.addEventListener('sunmit', (e)=>{
+        e.preventDefault();
     })
 }
