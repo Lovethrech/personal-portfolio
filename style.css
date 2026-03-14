@@ -6,9 +6,9 @@
     outline: none;
 }
 header{
-    background-color:#ffffff;
+    background-color:rgba(247, 175, 175, 0.397);
     padding: 10px 40px;
-    border-radius: 0 0 100px 90px;
+    border-radius: 0 0 0 90px;
 }
 main{
     width: 100%;
