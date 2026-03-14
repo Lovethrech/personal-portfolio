@@ -46,15 +46,20 @@ if(form){
 
         // Name 
         const name= document.getElementById('name').value.trim();
-        if (name===''){
+        if (name === ''){
             document.getElementById('name-error').textContent= 'Name is required';
             isValid=false;
         }
 
         // Email 
         const email= document.getElementById('email').value.trim();
+        const emailRegex= /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if(email === ''){
             document.getElementById('email.error').textContent="Email is required";
+            isValid=false;
+        }
+        else if(!emailRegex.test(email)){
+            
         }
     })
 }
