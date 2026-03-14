@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
         }
         else{
             body.classList.add("dark");
-            
+            localStorage.setItem("theme", "dark");
+            toggleButton.textContent("Toggle White Mode");
         }
     })
 })
