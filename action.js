@@ -73,7 +73,7 @@ if(form){
         if (isValid){
             successMsg.style.display="block";
             form.reset();
-            
+            setTimeout(()=> successMsg.style.display = 'none', 5000)
         }
     })
 }
