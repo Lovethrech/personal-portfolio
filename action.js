@@ -10,4 +10,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
     else if (savedTheme==="light"){
         body.classList.remove("light")
     }
+    else{
+        // Optional: Respect user's OS preference 
+        if(){
+
+        }
+    }
 })
