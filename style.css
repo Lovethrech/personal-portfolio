@@ -114,6 +114,7 @@ main{
     border: 0.5vh groove #7e4c4c;
 }
 .projects-card-title{
+    font-size: 26px;
     color:rgb(243, 49, 49);
     text-transform: uppercase;
 }
