@@ -16,4 +16,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             body.classList.add("dark");
         }
     }
+
+    // Toggle on click 
+    
 })
