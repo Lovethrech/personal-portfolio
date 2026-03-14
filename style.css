@@ -9,11 +9,18 @@
 }
 /* Define light mode defaults with variables  */
 :root{
-    --white-bg-color: #ffffff;
-    --white-bg-title-text-color: rgb(243, 49, 49);
-
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --card-bg: #f9f9f9;
+    --border-color: #ddd;
 }
 
+body.dark{
+    --bg-color: #121212;
+    --text-color: #000000;
+    --card-bg: #e0e0e0;
+    --border-color: #444;
+}
 
 
 header{
@@ -36,7 +43,7 @@ header button#theme-toogle:hover{
 main{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--bg-color);
     color: #ffffff;
 }
 #hero, #about, #projects, #contact{
@@ -53,7 +60,7 @@ main{
     justify-content: center;
 }
 #hero-main-ctn{
-    background-color: #ffffff;
+    background-color: var(--bg-color);
     color: rgb(243, 49, 49);
     padding: 3vh 20px;
     border-radius: 80px;
@@ -79,8 +86,8 @@ main{
 /* START  */
 #about{
     min-height: 100vh;
-    background-color: #ffffff;
-    color:#000000;
+    background-color: var(--bg-color);
+    color:var(--text-color);
     display: flex;
     place-items: center;
     justify-content: center;
