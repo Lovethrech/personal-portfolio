@@ -3,5 +3,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const body= document.body;
 
     // Check saved preferences or system preference 
-    
+    const savedTheme=localStorage.getItem('theme');
+    console.log(savedTheme.value);
 })
