@@ -36,12 +36,10 @@ const form=document.getElementById('contact-form');
 const successMsg=document.getElementById('form-success');
 
 if(form){
-    form.addEventListener('sunmit', (e)=>{
+    form.addEventListener('submit', (e)=>{
         e.preventDefault();
 
-        document.querySelectorAll('.error').forEach(
-            el=> el.textContent= ''
-        );
+        document.querySelectorAll('.error').forEach( el=> el.textContent= '' );
         let isValid=true;
 
         // Name 
