@@ -213,6 +213,12 @@ main{
 .contact-form-input-and-label-ctn textarea{
     min-height: 20vh;
 }
+.error{
+    font-size: 1.4vh;
+    color:red;
+    display: flex;
+    justify-content: end;
+}
 #contact-form-submission-btn{
     width: 100%;
     font-size:20px;
