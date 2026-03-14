@@ -38,5 +38,14 @@ const successMsg=document.getElementById('form-success');
 if(form){
     form.addEventListener('sunmit', (e)=>{
         e.preventDefault();
+
+        document.querySelectorAll('.error').forEach(
+            el=> el.textContent= ''
+        );
+        let isValid=true;
+
+        // Name 
+        const name= document.getElementById('name');
+        if (name)
     })
 }
