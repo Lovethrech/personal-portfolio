@@ -62,5 +62,12 @@ if(form){
             document.getElementById('email-error').textContent="Enter a valid email address";
             isValid=false;
         }
+
+        // Message 
+        const message = document.getElementById('message').value.trim();
+        if (message === ''){
+            document.getElementById('message-error').textContent = "Message is required";
+            isValid=false
+        }
     })
 }
